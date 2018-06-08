@@ -6,10 +6,15 @@ def line(x)
 line_array = []
   if x.length == 0
   puts "The line is currently empty."
-end
-end
+else
+    x.each.with_index(1) do |name, index|
+      line_array.push("#{index}. #{name}")
+    end
+    puts "The line is currently: #{line_array.join(" ")}"
+  end
 
 def take_a_number(array, string)
+  
 end
 
 def now_serving
