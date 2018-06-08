@@ -19,6 +19,7 @@ line array = []
 if x.length == 0
 line_array.push("#{index}. #{name}")
 end
+end
 
 def now_serving
 end
