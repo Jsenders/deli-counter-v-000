@@ -15,7 +15,9 @@ else
 end
 
 def take_a_number(array, string)
-
+line array = []
+if x.length == 0
+line_array.push("#{index}. #{name}")
 end
 
 def now_serving
